@@ -6058,6 +6058,7 @@ textarea.form-control-lg {
   border: 0;
   opacity: 0.5;
   transition: opacity 0.15s ease;
+  background-color: #000;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
