@@ -59,8 +59,8 @@ body {
 }
 .picture img {
   max-width: 100%;
-  width: 555px;
-  height: 555px;
+  width: 550px;
+  height: 550px;
 }
 #about-me {
   flex: 2;
