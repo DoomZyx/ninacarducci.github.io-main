@@ -58,7 +58,8 @@ body {
   z-index: 0;
 }
 .picture img {
-  width: 100%;
+  width: 555px;
+  height: 554px;
 }
 #about-me {
   flex: 2;

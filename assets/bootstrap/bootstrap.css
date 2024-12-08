@@ -5988,6 +5988,7 @@ textarea.form-control-lg {
   display: none;
   float: left;
   width: 100%;
+  height: auto;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -6933,7 +6934,8 @@ textarea.form-control-lg {
 }
 
 .w-100 {
-  width: 100%;
+  width: 1921px;
+  height: 889px;
 }
 
 .w-auto {
