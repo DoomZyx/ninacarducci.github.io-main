@@ -94,6 +94,7 @@ body {
 }
 .nav-pills .nav-link {
   color: #000;
+  cursor: pointer;
 }
 .item-column {
   margin-bottom: 0 !important;
