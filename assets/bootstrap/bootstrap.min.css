@@ -5799,8 +5799,9 @@ fieldset:disabled .btn {
   text-align: center;
   background: 0 0;
   border: 0;
-  opacity: 0.5;
+  opacity: 0.2;
   transition: opacity 0.15s ease;
+  background-color: black;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-next,
@@ -5815,7 +5816,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  opacity: 0.9;
+  opacity: 0.4;
 }
 .carousel-control-prev {
   left: 0;
