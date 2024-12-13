@@ -11,12 +11,18 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.min.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style" crossorigin="anonymous" onload="this.rel='stylesheet'">
 
-
+    <!-- Chargement prioritaire des images du portfolio -->
+     <link rel="preload" href="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" as="image">
+     <link rel="preload" href="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" as="image">
+     <link rel="preload" href="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" as="image">
+  
     <!-- Open Graph -->
     <meta property="og:title" content="Nina Carducci - Photographe à Bordeaux">
     <meta property="og:description" content="Découvrez le portfolio de Nina Carducci, photographe professionnelle spécialisée dans les mariages, portraits et événements à Bordeaux.">
@@ -198,12 +204,12 @@
         <img src="./assets/images/nina.webp.webp" alt=" Photo de Nina Carducci" loading="lazy" width="555" height="555" />
       </div>
       <div id="about-me">
-        <h3 class="about-me__title">A propos de moi</h3>
-        <h4 class="about-me__introduction">
+        <h2 class="about-me__title">A propos de moi</h2>
+        <h3 class="about-me__introduction">
           Devenir photographe était pour moi une évidence. Comme si j’y étais
           prédestiné. Saisir un moment, une émotion, une situation, un endroit,
           une lumière et les rendre immortels, voilà ce qui me fait vibrer.
-        </h4>
+        </h3>
         <p>
           Nous passons notre vie à chercher le bonheur, et lorsque nous y
           touchons, nous n’avons qu’une envie : le figer au travers de
@@ -391,14 +397,8 @@
         </div>
       </div>
     </footer>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    async
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous" defer
-    ></script>
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
+    <script src="./assets/scripts.min.js"></script>
+    <script src="./assets/maugallery.min.js"></script>
   </body>
 </html>
